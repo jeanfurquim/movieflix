@@ -1,0 +1,67 @@
+.id-card {
+  padding: 10px;
+}
+
+.id-card h1 {
+  color: #fff;
+  font-size: 24px;
+  width: 265px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: -0.015em;
+}
+.user-container {
+  padding: 10px;
+  background-color: #6c6c6c;
+}
+
+
+
+.username-review {
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px;
+  height: 35px;
+}
+
+.username-review p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+.comment-card {
+  padding: 0px;
+  margin-bottom: 30px;
+  border: 1px solid #e1e1e1;
+}
+
+.comment-card p {
+  color: #9e9e9e;
+  font-size: 16px;
+  width: 240px;
+  line-height: 22px;
+  text-align: justify;
+  letter-spacing: -0.015em;
+  margin-left: 12px;
+  margin-top: 10px;
+
+}
+@media (min-width: 1200px) {
+  .id-card {
+    padding: 40px;
+  }
+
+  .id-card h1{
+    width: 1000px;
+  }
+  .user-container {
+    padding: 50px;
+    }
+  
+    .comment-card p{
+      width: 1000px;
+    }
+  
+}
+

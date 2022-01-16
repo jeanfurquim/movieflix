@@ -1,0 +1,86 @@
+.login-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .login-banner-container {
+    display: none;
+    align-items: center;
+  }
+ 
+  .login-form-container {
+    width: 100%;
+  }
+
+  
+  
+  @media (min-width: 576px) {
+    .login-form-container {
+      width: 480px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .login-form-container {
+      width: 550px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .login-form-container {
+        width: 400px;
+        
+      }
+
+    .login-container {
+      padding: 40px;
+    }
+
+   
+  
+    .login-banner-container {
+      display: flex;
+      flex-direction: column;
+      margin-top: 40px;
+      width: 500px;
+    }
+  
+    .login-banner-container h1 {
+      font-size: 48px;
+      letter-spacing: -0.015em;
+      color: #fff;
+      margin-bottom: 30px;
+    }
+    .login-banner-container p {
+      font-size: 22px;
+      width: 320px;
+      letter-spacing: -0.015em;
+      color: #fff;
+      
+    }
+  
+    .login-banner-container svg {
+      width: 390px;
+      height: 265px;
+    
+    }
+    
+  }
+  
+  @media (min-width: 1400px) {
+    .login-banner-container {
+      width: 650px;
+    }
+  
+    .login-banner-container h1 {
+      font-size: 55px;
+      margin-bottom: 25px;
+    }
+  
+    .login-banner-container p {
+      font-size: 24px;
+
+    }
+  }
+  

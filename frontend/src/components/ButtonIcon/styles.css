@@ -1,0 +1,38 @@
+.btn-container {
+    display: flex;
+}
+
+.btn-container button {
+    width: 100% ;
+    height: 50px;
+
+}
+
+.btn h6 {
+    color: #000;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.btn-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+@media (min-width: 576px) {
+    .btn-icon-container {
+        width: 70px;
+        height: 70px;
+    }
+
+    
+
+    .btn h6 {
+        font-size: 18px;
+    }
+}
